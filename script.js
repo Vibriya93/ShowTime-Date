@@ -23,4 +23,22 @@ function showTime(){
 
 }
 
+function showDate(){
+
+    let date = new Date();
+    let day = date.getDate();
+    let mo = date.getMonth() + 1;
+    let jahr = date.getFullYear();
+
+    let datum = day + "." + mo + "." + jahr;
+
+    document.getElementById("MyDate").innerHTML = datum;
+    document.getElementById("MyDate").innerText = datum;
+
+    setTimeout(showDate, 3000)
+
+}
+
+
 showTime();
+showDate();

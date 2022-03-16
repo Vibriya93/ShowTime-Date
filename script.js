@@ -1,12 +1,15 @@
+//ShowTime function to get time
 function showTime(){
 
+    //Variable declaration for hours, minutes, seconds and session.
     let date = new Date();
     let h = date.getHours();
     let m = date.getMinutes();
     let s = date.getSeconds();
     let session = "AM"
 
-    if(h == 01){
+    //If Function to 
+    if(h == 0){
         h = 12
     }
 

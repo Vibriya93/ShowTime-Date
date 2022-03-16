@@ -18,10 +18,10 @@ body {
 .date {
 
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: aqua;
+    color: aquamarine;
     font-size: 60px;
     font-weight: bold;
     font-family: monospace;
